@@ -1,4 +1,10 @@
-### Topics : 
+### React Templates by [Soumojit Shome](https://www.soumojitshome.me/)
+
+### 1. Start :
+
+* npx create-react-app my-app
+* cd my-app
+* npm start
 
 ### 1. React Router Dom
 
