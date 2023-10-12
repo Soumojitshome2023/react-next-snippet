@@ -17,4 +17,6 @@
 
 * import React, { useState } from 'react';
 
-### 3.
+### 3. Props
+
+### 4.
