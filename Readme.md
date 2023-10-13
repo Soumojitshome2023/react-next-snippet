@@ -30,3 +30,17 @@
 * import { useState, useEffect } from "react";
 
 ### 7.
+
+---
+
+---
+
+### Next Templates : 
+
+### 1. Start :
+
+* npx create-next-app@latest  /  npx create-next-app
+* cd my-app
+* npm run dev
+
+### 2.
