@@ -25,4 +25,8 @@
 
 * import { useState } from "react";
 
-### 6.
+### 6. useEffect :
+
+* import { useState, useEffect } from "react";
+
+### 7.
