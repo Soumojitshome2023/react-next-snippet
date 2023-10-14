@@ -59,4 +59,6 @@
 
 ### 5. Id and API
 
-### 6.
+### 6. Context API
+
+### 7.
