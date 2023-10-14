@@ -12,8 +12,24 @@ const LoginForm = () => {
     const loginHandler = async () => {
         if (!email || !password) return;
         try {
-            const user = await signInWithEmailAndPassword(auth, email, password);
-            console.log(user)
+            const result = await signInWithEmailAndPassword(auth, email, password);
+            console.log(result)
+
+
+            const user = result.user;
+            console.log(user);
+
+            const userEmail = user.email;
+            const userdisplayName = user.displayName;
+            const userphotoURL = user.photoURL;
+            const useruid = user.uid;
+
+            console.log(userEmail);
+            console.log(userdisplayName);
+            console.log(userphotoURL); // null
+            console.log(useruid);
+
+
         } catch (error) {
             console.error(error);
         }
@@ -22,8 +38,22 @@ const LoginForm = () => {
 
     const signInWithGoogle = async () => {
         try {
-            const user = await signInWithPopup(auth, provider);
-            console.log(user)
+            const result = await signInWithPopup(auth, provider);
+            console.log(result)
+
+            const user = result.user;
+            console.log(user);
+
+            const userEmail = user.email;
+            const userdisplayName = user.displayName;
+            const userphotoURL = user.photoURL;
+            const useruid = user.uid;
+
+            console.log(userEmail);
+            console.log(userdisplayName);
+            console.log(userphotoURL);
+            console.log(useruid);
+
         } catch (error) {
             console.error(error);
         }

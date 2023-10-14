@@ -13,19 +13,49 @@ const RegisterForm = () => {
     const signupHandler = async () => {
         if (!email || !password || !username) return;
         try {
-            const user = await createUserWithEmailAndPassword(auth, email, password);
+            const result = await createUserWithEmailAndPassword(auth, email, password);
+            console.log(result);
+
             await updateProfile(auth.currentUser, {
                 displayName: username,
             });
+
+            const user = result.user;
             console.log(user);
+
+            const userEmail = user.email;
+            const userdisplayName = user.displayName;
+            const userphotoURL = user.photoURL;
+            const useruid = user.uid;
+
+            console.log(userEmail);
+            console.log(userdisplayName);
+            console.log(userphotoURL); // null
+            console.log(useruid);
+
+
         } catch (error) {
             console.error(error);
         }
     }
     const signInWithGoogle = async () => {
         try {
-            const user = await signInWithPopup(auth, provider);
-            console.log(user)
+            const result = await signInWithPopup(auth, provider);
+            console.log(result);
+
+            const user = result.user;
+            console.log(user);
+
+            const userEmail = user.email;
+            const userdisplayName = user.displayName;
+            const userphotoURL = user.photoURL;
+            const useruid = user.uid;
+
+            console.log(userEmail);
+            console.log(userdisplayName);
+            console.log(userphotoURL);
+            console.log(useruid);
+
         } catch (error) {
             console.error(error);
         }
