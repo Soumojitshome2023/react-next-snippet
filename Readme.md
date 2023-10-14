@@ -1,6 +1,6 @@
 ![MasterHead](https://bestanimations.com/media/sky/1088683783milky-way-night-sky-gif.gif)
 
-### React Templates by [Soumojit Shome](https://www.soumojitshome.me/)
+# React Js Templates by [Soumojit Shome](https://www.soumojitshome.me/)
 
 ### 1. Start :
 
@@ -35,7 +35,7 @@
 
 ---
 
-### Next Templates : 
+# Next Js Templates :
 
 ### 1. Start :
 
@@ -43,4 +43,14 @@
 * cd my-app
 * npm run dev
 
-### 2.
+### 2. Function Call :
+
+* onClick={()=>{change()}}
+* onClick={change()}
+* onClick={change}
+
+### 3. Routing :
+
+* import Link from "next/link";
+
+### 4.
