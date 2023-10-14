@@ -53,4 +53,8 @@
 
 * import Link from "next/link";
 
-### 4.
+### 4. API Call : 
+
+* axios.get
+
+### 5.
