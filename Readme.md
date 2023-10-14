@@ -69,7 +69,7 @@
 
 ### 6. [Next Context API](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Context%20API "Context API")
 
-### 7. Next Toastify Flash Message
+### 7. [Next Toastify Flash Message](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Toastify%20Flash%20Message "Flash Message")
 
 * [Website](https://www.npmjs.com/package/react-toastify "flash message")
 * `npm install --save react-toastify` or `yarn add react-toastify`
