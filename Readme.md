@@ -49,7 +49,7 @@
 * onClick={change()}
 * onClick={change}
 
-### 3. Routing :
+### 3. App Routing :
 
 * import Link from "next/link";
 
@@ -57,4 +57,6 @@
 
 * axios.get
 
-### 5.
+### 5. Id and API
+
+### 6.
