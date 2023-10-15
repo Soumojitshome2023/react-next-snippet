@@ -5,14 +5,12 @@ import { getDatabase } from "firebase/database";
 
 function firebaseConfig() {
     const firebaseConfig = {
-        apiKey: "AIzaSyA8_jm9lNofHXltgxsz3OCSr22ChwmF-fM",
-        authDomain: "medical-shop-f4c7d.firebaseapp.com",
-        databaseURL: "https://medical-shop-f4c7d-default-rtdb.firebaseio.com",
-        projectId: "medical-shop-f4c7d",
-        storageBucket: "medical-shop-f4c7d.appspot.com",
-        messagingSenderId: "67989827898",
-        appId: "1:67989827898:web:3a97f1eb58589af89a2003",
-        measurementId: "G-253C30REZY"
+        apiKey: 'YOUR_API_KEY',
+        authDomain: 'YOUR_AUTH_DOMAIN',
+        projectId: 'YOUR_PROJECT_ID',
+        storageBucket: 'YOUR_STORAGE_BUCKET',
+        messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+        appId: 'YOUR_APP_ID',
     };
 
     // Initialize Firebase
