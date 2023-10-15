@@ -74,7 +74,7 @@
 * [Website](https://www.npmjs.com/package/react-toastify "flash message")
 * `npm install --save react-toastify` or `yarn add react-toastify`
 
-### 8. [Next FireBase Realtime Database CRUD :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20FireBase%20CRUD "Firebase crud")
+### 8. [Next FireBase Realtime Database CRUD :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20FireBase%20Realtime%20Database%20CRUD "Firebase crud")
 
 * Data Write
 * Data Read
