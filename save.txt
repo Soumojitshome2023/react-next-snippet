@@ -1,0 +1,35 @@
+Firebase Firestore provides a set of operations for interacting with the database. Here is a list of some common Firestore operations:
+
+1. **Add Data**:
+   - `set`: Adds or overwrites a document with a specified ID.
+   - `add`: Adds a document with an automatically generated ID.
+   
+2. **Update Data**:
+   - `update`: Modifies the fields of an existing document.
+   
+3. **Delete Data**:
+   - `delete`: Removes a document.
+   
+4. **Read Data**:
+   - `get`: Retrieves the data from a document or a collection.
+   - `onSnapshot`: Listens to real-time changes in a document or collection.
+   - `where`: Queries data based on specific conditions.
+   - `orderBy`: Orders the results of a query.
+   - `limit`: Limits the number of documents returned by a query.
+
+5. **Batched Writes**:
+   - `batch`: Allows you to group multiple write operations into a single batch.
+
+6. **Transactions**:
+   - `runTransaction`: Executes a set of read and write operations in a transaction.
+
+7. **Security Rules**:
+   - Configure security rules to control who can read and write data in your Firestore database.
+
+8. **Geospatial Queries**:
+   - Firestore supports geospatial queries to query documents based on their geographic location.
+
+9. **Subcollections**:
+   - Firestore allows you to organize data in subcollections, making it easier to structure your data hierarchically.
+
+These are some of the primary operations available in Firestore. You can use these operations to build powerful and scalable applications with Firestore as your backend database. Keep in mind that Firestore is a NoSQL database, so it operates differently from traditional SQL databases in terms of data modeling and query structure.

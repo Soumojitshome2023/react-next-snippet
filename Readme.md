@@ -81,7 +81,40 @@
 * `npm install firebase`
 * CRUD
 
-### 9. [Next FireBase Auth : ](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20FireBase%20Auth "Auth")
+### 9. Next FireBase FireStore :
+
+* Add Data :
+
+  * setDoc : Sets or overwrites a document with a specified ID.
+  * addDoc : Adds a document to a collection with an automatically generated ID.
+* Update Data :
+
+  * updateDoc : Modifies the fields of an existing document.
+* Delete Data :
+
+  * deleteDoc : Removes a specific document, delete a specific document in Firestore.
+* Read Data :
+
+  * get : Retrieves the data from a document or a collection.
+    * getDoc : Retrieves the data from a specific document / Fetch Data From Doc ID
+    * getDocs : Retrieves the data from all documents in a collection / Fetch Data From Collection
+  * onSnapshot : Listens to real-time changes in a document or collection.
+* The database structure : 
+
+  * Project: MyWebsite
+    * Default Database
+      * Collection: Users
+        * Document: User1
+          * Fields: Name, Email
+        * Document: User2
+          * Fields: Name, Email
+      * Collection: Products
+        * Document: Product1
+          * Fields: Name, Price
+        * Document: Product2
+          * Fields: Name, Price
+
+### 10. [Next FireBase Auth : ](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20FireBase%20Auth "Auth")
 
 * [FireBase Documentation](https://firebase.google.com/docs/auth "Firebase doc")
 * `npm install firebase`
