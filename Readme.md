@@ -65,7 +65,10 @@
 
 * `axios.get("url")`
 
-### 5. [Next Id and API](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20id%20and%20API/app "ID and API")
+### 5. [Next Dynamic Routing](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Dynamic%20Routing "Dynamic Routing") :
+
+* Way 1 : create [id] named folder
+* Way 2 (Easy) : create [id] named folder
 
 ### 6. [Next Context API](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Context%20API "Context API")
 
@@ -96,7 +99,6 @@
 ### 9. [Next FireBase FireStore :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20FireStore "FireStore")
 
 * `npm install firebase`
-
 * Add Data :
 
   * setDoc : Sets or overwrites a document with a specified ID.
