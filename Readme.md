@@ -76,12 +76,26 @@
 
 ### 8. [Next FireBase Realtime Database CRUD :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20FireBase%20Realtime%20Database%20CRUD "Firebase crud")
 
-* Data Write
-* Data Read
 * `npm install firebase`
-* CRUD
+* Way 1 :
+
+  * Set Data, set(dataRef, dataToSet)
+  * Get Data
+  * Update Data
+  * Remove Data
+* Way 2 :
+
+  * Only Write, using POST method
+* Way 3 (Best Way) :
+
+  * Push Data
+  * Set Data
+  * Get Data
+  * Remove Data
 
 ### 9. [Next FireBase FireStore :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20FireStore "FireStore")
+
+* `npm install firebase`
 
 * Add Data :
 
