@@ -81,7 +81,7 @@
 * `npm install firebase`
 * CRUD
 
-### 9. Next FireBase FireStore :
+### 9. [Next FireBase FireStore :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20FireStore "FireStore")
 
 * Add Data :
 
@@ -99,7 +99,7 @@
     * getDoc : Retrieves the data from a specific document / Fetch Data From Doc ID
     * getDocs : Retrieves the data from all documents in a collection / Fetch Data From Collection
   * onSnapshot : Listens to real-time changes in a document or collection.
-* The database structure : 
+* The database structure :
 
   * Project: MyWebsite
     * Default Database

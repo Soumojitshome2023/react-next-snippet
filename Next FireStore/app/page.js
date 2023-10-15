@@ -11,10 +11,10 @@ export default function Page() {
   // ============================= Add Data =============================
   const AddData = async () => {
     const dataToAdd = {
-      data1,
-      data2,
-      data3,
-      data4,
+      data11: data1,
+      data22: data2,
+      data33: data3,
+      data44: data4,
     };
 
     try {
@@ -29,10 +29,10 @@ export default function Page() {
   // ============================= Set Data =============================
   const SetData = async () => {
     const dataToSet = {
-      data1,
-      data2,
-      data3,
-      data4,
+      data11: data1,
+      data22: data2,
+      data33: data3,
+      data44: data4,
     };
 
     const docRef = doc(firestore, 'yourCollectionName', 'documentId');
@@ -49,10 +49,10 @@ export default function Page() {
   // ============================ Update Data ===========================
   const UpdateData = async () => {
     const dataToUpdate = {
-      data1,
-      data2,
-      data3,
-      data4,
+      data11: data1,
+      data22: data2,
+      data33: data3,
+      data44: data4,
     };
 
     const docRef = doc(firestore, 'yourCollectionName', 'documentId'); // Replace 'yourCollectionName' and 'documentId'
@@ -108,7 +108,7 @@ export default function Page() {
     });
   };
   // ====================================================================
-  
+
   // =========================== Delete Data ============================
   const DeleteData = async () => {
     try {
@@ -120,7 +120,7 @@ export default function Page() {
     }
   }
   // ====================================================================
-  
+
 
   return (
     <div>
