@@ -138,3 +138,10 @@
 * LogIn With Google
 * Sign In With Email and Password
 * LogIn With Email and Password
+
+### 11. [Next Style as Module :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Style%20as%20Module)
+
+* ```
+  import style1 from './Style/home.module.css'
+  import style2 from './Style/about.module.css'
+  ```
