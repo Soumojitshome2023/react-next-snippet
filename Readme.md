@@ -63,13 +63,15 @@
   ```
   npx create-next-app
   ```
-* > What is your project named?  **my-app**
-  > Would you like to use TypeScript?  **No** / ~~Yes~~
-  > Would you like to use ESLint?  **No** / ~~Yes~~
-  > Would you like to use Tailwind CSS?  ~~No~~ / **Yes**
-  > Would you like to use src/ directory?  **No** / ~~Yes~~
-  > Would you like to use App Router? (recommended)  ~~No~~ / **Yes**
-  > Would you like to customize the default import alias (@/*)?  **No** / ~~Yes~~
+* > ```
+  > What is your project named?  my-app
+  > Would you like to use TypeScript?  No / Yes
+  > Would you like to use ESLint?  No / Yes
+  > Would you like to use Tailwind CSS?  No / Yes
+  > Would you like to use src/ directory?  No / Yes
+  > Would you like to use App Router? (recommended)  No / Yes
+  > Would you like to customize the default import alias (@/*)?  No / Yes
+  > ```
   >
 * ```
   cd my-app
@@ -92,6 +94,7 @@
 
 ### 3. [Next App Routing :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20App%20Routing/app "App Routing")
 
+* [Nested and Dynamic Routes NextJs Doc](https://nextjs.org/docs/getting-started/project-structure#nested-routes)
 * ```
   import Link from "next/link";
   ```
@@ -104,6 +107,7 @@
 
 ### 5. [Next Dynamic Routing](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Dynamic%20Routing "Dynamic Routing") :
 
+* [Nested and Dynamic Routes NextJs Doc](https://nextjs.org/docs/getting-started/project-structure#nested-routes)
 * Way 1 : create [id] named folder
 * Way 2 (Easy) : create [id] named folder
 
@@ -199,7 +203,12 @@
 
 ### 12. [Next Loading file :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Loading)
 
+* [App Routing Conventions NextJS Doc](https://nextjs.org/docs/getting-started/project-structure#app-routing-conventions)
 * loading.js
 * Loading UI
 
 ### 13. [Next Not-Found](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Not%20Found)
+
+* [App Routing Conventions NextJS Doc](https://nextjs.org/docs/getting-started/project-structure#app-routing-conventions)
+
+### 14. [Next API](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20API)
