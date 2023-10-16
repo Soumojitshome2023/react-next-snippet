@@ -21,6 +21,19 @@ export function GET(request) {
     return NextResponse.json(users)
 }
 
+export function POST(request) {
+    const body = request.body;
+    console.log(body);
+    // console.log(request.method);
+    // console.log(request.headers);
+    console.log(request.nextUrl.pathname);
+
+    return NextResponse.json({
+        message: "posting user data",
+    })
+
+}
+
 export function DELETE(request) {
     console.log("Delete API Called");
     return NextResponse.json({
