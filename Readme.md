@@ -220,3 +220,7 @@
 * ```
   npm i mongoose
   ```
+* Way 1 :
+  * Test Using Thunder Client or Postman
+* Way 2 (Easy to Learn) :
+  * Test Using Create Function
