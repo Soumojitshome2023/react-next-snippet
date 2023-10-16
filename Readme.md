@@ -207,10 +207,16 @@
 * loading.js
 * Loading UI
 
-### 13. [Next Not-Found](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Not%20Found)
+### 13. [Next Not-Found :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Not%20Found)
 
 * [App Routing Conventions NextJS Doc](https://nextjs.org/docs/getting-started/project-structure#app-routing-conventions)
 
-### 14. [Next API](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20API)
+### 14. [Next API :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20API)
 
 * [NextRequest Doc](https://nextjs.org/docs/app/api-reference/functions/next-request)
+
+### 15. [Next Mongo API](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Mongo%20API) :
+
+* ```
+  npm i mongoose
+  ```
