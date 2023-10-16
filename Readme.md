@@ -196,7 +196,9 @@
   import style2 from './Style/about.module.css'
   ```
 
-### 12. [Loading file :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Loading)
+### 12. [Next Loading file :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Loading)
 
 * loading.js
 * Loading UI
+
+### 13. [Next Not-Found](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Not%20Found)
