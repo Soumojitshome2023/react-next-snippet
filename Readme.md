@@ -45,7 +45,6 @@
   import { useState, useEffect } from "react";
   ```
 
-
 ---
 
 ---
@@ -196,3 +195,8 @@
   import style1 from './Style/home.module.css'
   import style2 from './Style/about.module.css'
   ```
+
+### 12. [Loading file :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Loading)
+
+* loading.js
+* Loading UI
