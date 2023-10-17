@@ -1,11 +1,14 @@
 import mongoose from "mongoose";
 import { User } from "../models/user";
 
+const Data_Base_Name = "DB_Test";
+
+
 export const connectDb = async () => {
     try {
 
         const { connection } = await mongoose.connect(process.env.MONGO_DB_URL, {
-            dbName: "work_manager",
+            dbName: Data_Base_Name,
         })
         console.log("Db Connected");
         // console.log(connection)

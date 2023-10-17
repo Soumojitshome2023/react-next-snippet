@@ -1,5 +1,8 @@
 import mongoose, { Schema } from "mongoose";
 
+const Model_Name = "test";
+
+
 const UserSchema = new Schema({
     name: String,
     email: {
@@ -9,4 +12,4 @@ const UserSchema = new Schema({
     },
 });
 
-export const User = mongoose.models.users || mongoose.model("users", UserSchema)
+export const User = mongoose.models.Model_Name || mongoose.model(Model_Name, UserSchema)
