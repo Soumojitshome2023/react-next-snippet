@@ -221,6 +221,23 @@
   npm i mongoose
   ```
 * Way 1 :
+
   * Test Using Thunder Client or Postman
 * Way 2 (Easy to Learn) :
+
   * Test Using Create Function
+* Structure of a MongoDB database :
+
+  * Database (e.g., "UserDatabase")
+
+    * Collection (e.g., "Users")
+      * Document (e.g., User1)
+        * Field ("_id": 1)
+        * Field ("username": "johndoe")
+        * Field ("firstName": "John")
+        * Field ("lastName": "Doe")
+      * Document (e.g., User2)
+        * Field ("_id": 2)
+        * Field ("username": "alicej")
+        * Field ("firstName": "Alice")
+        * Field ("lastName": "Johnson")
