@@ -10,14 +10,12 @@ export async function GET(request) {
 
     try {
         users = await User.find();
-
     } catch (error) {
         console.log("error");
         return NextResponse.json({
             message: "Failed to create ",
-            status: 201,
+            success: false,
         });
-
     }
     return NextResponse.json(users)
 }
@@ -26,7 +24,7 @@ export async function GET(request) {
 
 // ==================================== Post ====================================
 export async function POST(request) {
-    
+
     const { name, email } = await request.json();
     const user = new User({
         name, email
@@ -34,7 +32,7 @@ export async function POST(request) {
     try {
         const createdUser = await user.save();
         const response = NextResponse.json(user, {
-            status: 201,
+            success: true,
         });
         return response;
 
@@ -42,7 +40,7 @@ export async function POST(request) {
         console.log("Error")
         return NextResponse.json({
             message: "Failed to create ",
-            status: 201,
+            success: false,
         });
     }
 

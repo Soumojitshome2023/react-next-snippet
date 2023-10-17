@@ -33,7 +33,7 @@ export async function PUT(request, { params }) {
         console.log("error");
         return NextResponse.json({
             message: "Failed to Update",
-            status: 201,
+            success: false,
         });
 
     }
@@ -56,7 +56,7 @@ export async function DELETE(request, { params }) {
         console.log("error");
         return NextResponse.json({
             message: "Failed to create ",
-            status: 201,
+            success: false,
         });
     }
 }

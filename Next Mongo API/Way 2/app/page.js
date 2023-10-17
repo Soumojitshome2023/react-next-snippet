@@ -7,11 +7,12 @@ export default function page() {
   const [data2, setData2] = useState('');
   const [data3, setData3] = useState('');
 
+  const fetchlink = "http://localhost:3000";
 
   // ========================= Post ========================= 
   const post = async () => {
     try {
-      let result = await fetch("http://localhost:3000/api", {
+      let result = await fetch(fetchlink + "/api/", {
         method: "POST",
         body: JSON.stringify(
           {
@@ -20,8 +21,10 @@ export default function page() {
           }),
       });
       result = await result.json();
-
-      console.log("Done");
+      console.log(result);
+      if (result.success != false) {
+        console.log("Done");
+      }
 
     } catch (error) {
       console.log("Error");
@@ -31,12 +34,14 @@ export default function page() {
   // ========================= Get Whole Data =========================
   const get_whole = async () => {
     try {
-      let data = await fetch("http://localhost:3000/api/")
+      let data = await fetch(fetchlink + "/api/")
       data = await data.json();
 
       console.log(data);
 
-      console.log("Done");
+      if (data.length != 0) {
+        console.log("Done");
+      }
 
     } catch (error) {
       console.log("Error");
@@ -46,12 +51,13 @@ export default function page() {
   // ========================= Get By Id =========================
   const get_by_id = async () => {
     try {
-      let data = await fetch("http://localhost:3000/api/" + data3);
+      let data = await fetch(fetchlink + "/api/" + data3);
       data = await data.json();
 
       console.log(data);
-
-      console.log("Done");
+      if (data.length != 0) {
+        console.log("Done");
+      }
 
     } catch (error) {
       console.log("Error");
@@ -61,7 +67,7 @@ export default function page() {
   // ========================= Put By Id =========================
   const put_by_id = async () => {
     try {
-      let result = await fetch("http://localhost:3000/api/" + data3, {
+      let result = await fetch(fetchlink + "/api/" + data3, {
         method: "PUT",
         body: JSON.stringify(
           {
@@ -70,8 +76,10 @@ export default function page() {
           }),
       });
       result = await result.json();
-
-      console.log("Done");
+      console.log(result);
+      if (result.success != false) {
+        console.log("Done");
+      }
 
     } catch (error) {
       console.log("Error");
@@ -81,12 +89,15 @@ export default function page() {
   // ========================= Delete By Id =========================
   const delete_by_id = async () => {
     try {
-      let result = await fetch("http://localhost:3000/api/" + data3, {
+      let result = await fetch(fetchlink + "/api/" + data3, {
         method: "delete"
       });
       result = await result.json();
 
-      console.log("Done");
+      console.log(result);
+      if (result.success != false) {
+        console.log("Done");
+      }
 
     } catch (error) {
       console.log("Error");
