@@ -194,28 +194,36 @@
 * Sign In With Email and Password
 * LogIn With Email and Password
 
-### 11. [Next Style as Module :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Style%20as%20Module)
+### 11. [Next FireBase Storage :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20FireBase%20Storage)
+
+* ```
+  npm install firebase
+  ```
+* Upload Files
+* Download Files
+
+### 12. [Next Style as Module :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Style%20as%20Module)
 
 * ```
   import style1 from './Style/home.module.css'
   import style2 from './Style/about.module.css'
   ```
 
-### 12. [Next Loading file :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Loading)
+### 13. [Next Loading file :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Loading)
 
 * [App Routing Conventions NextJS Doc](https://nextjs.org/docs/getting-started/project-structure#app-routing-conventions)
 * loading.js
 * Loading UI
 
-### 13. [Next Not-Found :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Not%20Found)
+### 14. [Next Not-Found :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Not%20Found)
 
 * [App Routing Conventions NextJS Doc](https://nextjs.org/docs/getting-started/project-structure#app-routing-conventions)
 
-### 14. [Next API :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20API)
+### 15. [Next API :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20API)
 
 * [NextRequest Doc](https://nextjs.org/docs/app/api-reference/functions/next-request)
 
-### 15. [Next Mongo API](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Mongo%20API) :
+### 16. [Next Mongo API](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Mongo%20API) :
 
 * ```
   npm i mongoose
