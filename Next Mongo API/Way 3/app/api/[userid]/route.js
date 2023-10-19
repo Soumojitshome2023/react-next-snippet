@@ -9,6 +9,11 @@ export async function GET(request, { params }) {
     const { userid } = params;
     const user = await User.findById(userid);
 
+    // Get Data By Email 
+    /*const user = await User.findOne({
+        email: userid,
+    });*/
+
     return NextResponse.json(user);
 }
 
