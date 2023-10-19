@@ -233,7 +233,13 @@
   * Test Using Thunder Client or Postman
 * Way 2 (Easy to Learn) :
 
-  * Test Using Create Function
+  * Test Using Create Functions and 'fetch'
+* Way 3 :
+
+  * ```
+    npm install axios
+    ```
+  * Test Using axios and Create functions
 * Structure of a MongoDB database :
 
   * Database (e.g., "UserDatabase")
