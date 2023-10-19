@@ -262,8 +262,16 @@
   npm install bcryptjs
   ```
   * [bcryptjs Doc](https://www.npmjs.com/package/bcrypt?activeTab=readme)
+
 * ```
   npm install jsonwebtoken
   ```
   * [jsonwebtoken Doc](https://www.npmjs.com/package/jsonwebtoken)
+
 * SignUp, LogIn, Log Out
+
+### 18. [Next Sweet Alert :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Sweet%20Alert)
+* ```
+  npm install sweetalert2
+  ```
+  * [Sweet Alert Doc](https://sweetalert2.github.io)
