@@ -244,7 +244,6 @@
 * Structure of a MongoDB database :
 
   * Database (e.g., "UserDatabase")
-
     * Collection (e.g., "Users")
       * Document (e.g., User1)
         * Field ("_id": 1)
@@ -256,3 +255,15 @@
         * Field ("username": "alicej")
         * Field ("firstName": "Alice")
         * Field ("lastName": "Johnson")
+
+### 17. [Next Mongo Auth :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Mongo%20Auth)
+
+* ```
+  npm install bcryptjs
+  ```
+  * [bcryptjs Doc](https://www.npmjs.com/package/bcrypt?activeTab=readme)
+* ```
+  npm install jsonwebtoken
+  ```
+  * [jsonwebtoken Doc](https://www.npmjs.com/package/jsonwebtoken)
+* SignUp, LogIn, Log Out
