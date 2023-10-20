@@ -1,6 +1,7 @@
 "use client"
 import { useState } from 'react';
-import { firestore, collection, addDoc, doc, setDoc, updateDoc, getDocs, getDoc, onSnapshot, deleteDoc } from '../firebase/firebase'; // Import your Firebase initialization file
+import { firestore, collection, addDoc, doc, setDoc, updateDoc, getDocs, getDoc, onSnapshot, deleteDoc } from '../FireBase/FireBase';
+import { where, query } from "firebase/firestore";
 
 export default function Page() {
   const [data1, setData1] = useState('');
@@ -99,9 +100,9 @@ export default function Page() {
   // ====================================================================
 
   // ============================= Snapshot =============================
-  const listenForUpdates = () => {
+  const get_snapshot = () => {
     const collectionRef = collection(firestore, 'yourCollectionName'); // Replace 'yourCollectionName'
-    return onSnapshot(collectionRef, (querySnapshot) => {
+    onSnapshot(collectionRef, (querySnapshot) => {
       querySnapshot.forEach((doc) => {
         console.log('Document ID: ', doc.id, 'Data: ', doc.data());
       });
@@ -121,6 +122,17 @@ export default function Page() {
   }
   // ====================================================================
 
+  // ========================= Get Data By Query ========================
+  const get_data_query = async () => {
+    const q = query(collection(firestore, "yourCollectionName"), where("data33", "==", "d"));
+    const querySnapshot = await getDocs(q);
+    console.log(querySnapshot)
+    querySnapshot.forEach((todo) => {
+      console.log(todo.data());
+    });
+  }
+  // ====================================================================
+
 
   return (
     <div>
@@ -134,8 +146,9 @@ export default function Page() {
       <button onClick={UpdateData}>Update Data</button>
       <button onClick={fetchData}>Fetch Data From Collection</button>
       <button onClick={fetchData_doc}>Fetch Data From Doc ID</button>
-      <button onClick={listenForUpdates}>Snapshot</button>
+      <button onClick={get_snapshot}>Snapshot</button>
       <button onClick={DeleteData}>Delete Data</button>
+      <button onClick={get_data_query}>Get Data By Query</button>
 
     </div>
   );
