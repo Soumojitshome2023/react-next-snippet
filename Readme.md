@@ -275,3 +275,5 @@
   npm install sweetalert2
   ```
   * [Sweet Alert Doc](https://sweetalert2.github.io)
+
+### 19. [Next Favicon and OpenGraph :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Favicon%20and%20OpenGraph)
