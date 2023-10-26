@@ -15,26 +15,34 @@
   ```
 * Node Modules Commands :
   * Uninstall Globally :
-    ``` 
+
+    ```
     npm uninstall -g create-react-app
     ```
   * Install Globally :
-    ``` 
+
+    ```
     npm install -g create-react-app
     ```
   * Install node modules :
+
     ```
     npm install 
     ```
+
     or,
+
     ```
     npm i 
     ```
   * Check Node Module Version :
+
     ```
     npm –version
     ```
+
     or,
+
     ```
     node -v
     ```
@@ -105,27 +113,36 @@
   npm run dev
   ```
 * Node Modules Commands :
+
   * Uninstall Globally :
-    ``` 
+
+    ```
     npm uninstall -g create-next-app
     ```
   * Install Globally :
-    ``` 
+
+    ```
     npm install -g create-next-app
     ```
   * Install node modules :
+
     ```
     npm install 
     ```
+
     or,
+
     ```
     npm i 
     ```
   * Check Node Module Version :
+
     ```
     npm –version
     ```
+
     or,
+
     ```
     node -v
     ```
@@ -311,19 +328,35 @@
 * ```
   npm install bcryptjs
   ```
-  * [bcryptjs Doc](https://www.npmjs.com/package/bcrypt?activeTab=readme)
 
+  * [bcryptjs Doc](https://www.npmjs.com/package/bcrypt?activeTab=readme)
 * ```
   npm install jsonwebtoken
   ```
-  * [jsonwebtoken Doc](https://www.npmjs.com/package/jsonwebtoken)
 
+  * [jsonwebtoken Doc](https://www.npmjs.com/package/jsonwebtoken)
 * SignUp, LogIn, Log Out
 
 ### 18. [Next Sweet Alert :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Sweet%20Alert)
+
 * ```
   npm install sweetalert2
   ```
+
   * [Sweet Alert Doc](https://sweetalert2.github.io)
 
 ### 19. [Next Favicon and OpenGraph :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Favicon%20and%20OpenGraph)
+
+* ```
+  <head>
+    <link rel="icon" href="/laptop.png" sizes="any" />
+    <meta property="og:image" content="/laptop.png" />
+  </head>
+  ```
+
+### 20. [Next Typewriter :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Typewriter)
+
+* [Typewriter Doc](https://www.npmjs.com/package/typewriter-effect)
+* ```
+  npm i typewriter-effect
+  ```
