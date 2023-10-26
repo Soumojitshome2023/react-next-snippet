@@ -13,6 +13,31 @@
 * ```
   npm start
   ```
+* Node Modules Commands :
+  * Uninstall Globally :
+    ``` 
+    npm uninstall -g create-react-app
+    ```
+  * Install Globally :
+    ``` 
+    npm install -g create-react-app
+    ```
+  * Install node modules :
+    ```
+    npm install 
+    ```
+    or,
+    ```
+    npm i 
+    ```
+  * Check Node Module Version :
+    ```
+    npm –version
+    ```
+    or,
+    ```
+    node -v
+    ```
 
 ### 2. [React Router Dom :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/React%20Router%20Dom "Router Dom")
 
@@ -79,6 +104,31 @@
 * ```
   npm run dev
   ```
+* Node Modules Commands :
+  * Uninstall Globally :
+    ``` 
+    npm uninstall -g create-next-app
+    ```
+  * Install Globally :
+    ``` 
+    npm install -g create-next-app
+    ```
+  * Install node modules :
+    ```
+    npm install 
+    ```
+    or,
+    ```
+    npm i 
+    ```
+  * Check Node Module Version :
+    ```
+    npm –version
+    ```
+    or,
+    ```
+    node -v
+    ```
 
 ### 2. [Next Function Call :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Function%20Call "Function Call")
 
