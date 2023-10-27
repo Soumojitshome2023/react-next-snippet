@@ -360,3 +360,15 @@
 * ```
   npm i typewriter-effect
   ```
+
+### 21. [Next Font-Awesome :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Font-Awesome)
+
+* [font-awesome Doc](https://www.npmjs.com/package/font-awesome)
+* ```
+  npm i font-awesome
+  npm install --save @fortawesome/fontawesome-svg-core
+  npm install --save @fortawesome/free-solid-svg-icons
+  npm install --save @fortawesome/react-fontawesome
+  ```
+
+  
