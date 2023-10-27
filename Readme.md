@@ -371,4 +371,14 @@
   npm install --save @fortawesome/react-fontawesome
   ```
 
+### 22. [Next Auth :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Auth)
+
+* [Next Auth Doc](https://www.npmjs.com/package/next-auth)
+* [Console Cloud Google](https://console.cloud.google.com/apis/credentials?project=glass-effect-403314)
+
+* ```
+  npm i next-auth
+  ```
+
+
   
