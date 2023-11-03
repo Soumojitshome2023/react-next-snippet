@@ -380,5 +380,12 @@
   npm i next-auth
   ```
 
+### 23. [Next Formspree :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Formspree)
+
+* [Formspree Web](https://formspree.io/)
+
+* ```
+  npm i @formspree/react
+  ```
 
   
