@@ -29,11 +29,34 @@ export default function page() {
     });
   }
 
+  // ============================= Get File By Name =============================
+  const fileName = 'favicon.jpg';
+
+  const GetFileByName = () => {
+    listAll(imagesListRef)
+      .then((response) => {
+        const fileItem = response.items.find((item) => item.name === fileName);
+
+        if (fileItem) {
+          getDownloadURL(fileItem).then((url) => {
+            console.log(url);
+          });
+        } else {
+          console.log(`File '${fileName}' not found.`);
+        }
+      })
+      .catch((error) => {
+        console.error('Error listing files:', error);
+      });
+  }
+
+
   return (
     <div>
       <input type="file" onChange={(event) => { setImageUpload(event.target.files[0]); }} />
       <button onClick={uploadFile}> Upload Image</button>
-      <button onClick={GetAllFile}> Get All Image</button>
+      <button onClick={GetAllFile}> Get All Files</button>
+      <button onClick={GetFileByName}> Get File By Name</button>
     </div>
   );
 }

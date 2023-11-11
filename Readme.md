@@ -267,7 +267,8 @@
   npm install firebase
   ```
 * Upload Files
-* Download Files
+* Download All Files
+* Download File By Name
 
 ### 12. [Next Style as Module :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Style%20as%20Module)
 
@@ -386,6 +387,16 @@
 
 * ```
   npm i @formspree/react
+  ```
+
+  
+
+### 24. [Next Browser Image Compression :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Browser%20Image%20Compression)
+
+* [Browser Image Compression Web](https://www.npmjs.com/package/browser-image-compression)
+
+* ```
+  npm i browser-image-compression
   ```
 
   
