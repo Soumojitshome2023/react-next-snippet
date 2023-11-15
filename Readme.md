@@ -400,3 +400,10 @@
   ```
 
   
+### 25. [Next Save Image Locally Firebase Storage :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Save%20Image%20Locally%20Firebase%20Storage)
+
+* ```
+  npm install axios
+  ```
+
+  

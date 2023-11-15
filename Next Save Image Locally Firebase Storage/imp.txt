@@ -1,0 +1,9 @@
+[
+  {
+    "origin": ["https://example.com"],
+    "method": ["GET"],
+    "maxAgeSeconds": 3600
+  }
+]
+
+gsutil cors set cors.json gs://exampleproject.appspot.com
