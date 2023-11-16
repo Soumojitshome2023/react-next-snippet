@@ -406,4 +406,14 @@
   npm install axios
   ```
 
+### 25. [Next JsPDF :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20JsPDF)
+
+* ```
+  npm install jspdf html2canvas
+  ```
   
+* Image link to pdf
+* Upload Image to pdf
+
+
+
