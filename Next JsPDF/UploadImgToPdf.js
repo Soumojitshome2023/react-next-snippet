@@ -41,7 +41,8 @@ const UploadImgToPdfGenerator = () => {
 
                 // Add image to the PDF
                 pdf.addImage(image, 'JPEG', 5, 5, maxWidth, maxHeight);
-
+                // pdf.addPage();
+                // pdf.addImage(image, 'JPEG', 5, 5, maxWidth, maxHeight);
 
 
                 // Save PDF

@@ -390,7 +390,6 @@
   ```
 
   
-
 ### 24. [Next Browser Image Compression :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Browser%20Image%20Compression)
 
 * [Browser Image Compression Web](https://www.npmjs.com/package/browser-image-compression)
@@ -406,14 +405,40 @@
   npm install axios
   ```
 
-### 25. [Next JsPDF :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20JsPDF)
+### 26. [Next JsPDF :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20JsPDF)
 
 * ```
   npm install jspdf html2canvas
   ```
+* ```
+  npm install pdf-merger-js
+  ```
+* ```
+  npm install @pdf-lib/core
+  ```
   
-* Image link to pdf
-* Upload Image to pdf
+* Image link to PDF
+* Images to PDF Merger
+* PDFs to PDF Merger
+* PDF Viewer
+* Upload Image to PDF
+
+
+### 27. [Next Page Top Loader :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Page%20Top%20Loader)
+
+* ```
+  npm install react-top-loading-bar
+  ```
+
+### 28. [Next Drag Drop :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Drag%20Drop)
+
+* ```
+  npm install react-dropzone
+  ```
+
+
+
+
 
 
 
