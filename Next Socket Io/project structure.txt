@@ -1,0 +1,10 @@
+your-nextjs-app/
+|-- .next/
+|-- node_modules/
+|-- app/
+|   |-- page.js
+|-- public/
+|-- server.js
+|-- .gitignore
+|-- package.json
+|-- README.md
