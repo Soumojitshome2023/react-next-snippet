@@ -437,6 +437,21 @@
   ```
 
 
+### 29. [Next Socket Io :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Socket%20Io)
+
+* ```
+  npm i socket.io-client
+  ```
+* ```
+  npm i socket.io
+  ```
+* ```
+  npm i cors
+  ```
+* ```
+  node server.js
+  ```
+
 
 
 
