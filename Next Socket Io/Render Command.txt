@@ -1,0 +1,7 @@
+Render Command
+======================================
+Name : socket-io-chatapp
+Root Directory : nodeServer
+Runtime : Node
+Build Command : nodeServer/  npm i; npm i build
+Start Command : nodeServer/ node index.js
