@@ -442,6 +442,9 @@
 * NextJs .env Prefix : ``NEXT_PUBLIC_``
 
 * ```
+  npm i nodemon
+  ```
+* ```
   npm i socket.io-client
   ```
 * ```

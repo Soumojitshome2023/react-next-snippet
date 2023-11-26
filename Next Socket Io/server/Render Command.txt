@@ -1,7 +1,7 @@
 Render Command
 ======================================
 Name : project-name
-Root Directory : nodeServer
+Root Directory : server
 Runtime : Node
 Build Command : nodeServer/  npm i; npm i build
-Start Command : nodeServer/ node server.js
+Start Command : nodeServer/ npm start

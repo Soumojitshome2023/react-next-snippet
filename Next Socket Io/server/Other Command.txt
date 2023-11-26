@@ -1,0 +1,6 @@
+npm init
+npm i nodemon
+npm i socket.io
+npm start
+
+"start": "nodemon index.js"   //  add this line on package.json
