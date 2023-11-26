@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import io from 'socket.io-client';
 
-const socket = io('http://localhost:8000');
+const socket = io(process.env.NEXT_PUBLIC_SERVER_URL);
 
 const Home = () => {
     const [input, setInput] = useState('');
