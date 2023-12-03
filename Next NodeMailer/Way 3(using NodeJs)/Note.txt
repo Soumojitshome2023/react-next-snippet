@@ -1,0 +1,1 @@
+To send mail: http://localhost:5000/mail

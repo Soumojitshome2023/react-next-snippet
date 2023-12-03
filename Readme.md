@@ -13,18 +13,18 @@
 * ```
   npm start
   ```
-* Node Modules Commands :
-  * Uninstall Globally :
+* **Node Modules Commands :**
+  * **Uninstall Globally :**
 
     ```
     npm uninstall -g create-react-app
     ```
-  * Install Globally :
+  * **Install Globally :**
 
     ```
     npm install -g create-react-app
     ```
-  * Install node modules :
+  * **Install node modules :**
 
     ```
     npm install 
@@ -35,7 +35,7 @@
     ```
     npm i 
     ```
-  * Check Node Module Version :
+  * **Check Node Module Version :**
 
     ```
     npm –version
@@ -112,19 +112,19 @@
 * ```
   npm run dev
   ```
-* Node Modules Commands :
+* **Node Modules Commands :**
 
-  * Uninstall Globally :
+  * **Uninstall Globally :**
 
     ```
     npm uninstall -g create-next-app
     ```
-  * Install Globally :
+  * **Install Globally :**
 
     ```
     npm install -g create-next-app
     ```
-  * Install node modules :
+  * **Install node modules :**
 
     ```
     npm install 
@@ -135,7 +135,7 @@
     ```
     npm i 
     ```
-  * Check Node Module Version :
+  * **Check Node Module Version :**
 
     ```
     npm –version
@@ -175,8 +175,8 @@
 ### 5. [Next Dynamic Routing](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Dynamic%20Routing "Dynamic Routing") :
 
 * [Nested and Dynamic Routes NextJs Doc](https://nextjs.org/docs/getting-started/project-structure#nested-routes)
-* Way 1 : create [id] named folder
-* Way 2 (Easy) : create [id] named folder
+* **Way 1 :** create [id] named folder
+* **Way 2 (Easy) :** create [id] named folder
 
 ### 6. [Next Context API](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Context%20API "Context API")
 
@@ -198,16 +198,16 @@
 * ```
   npm install firebase
   ```
-* Way 1 :
+* **Way 1 :**
 
   * Set Data, set(dataRef, dataToSet)
   * Get Data
   * Update Data
   * Remove Data
-* Way 2 :
+* **Way 2 :**
 
   * Only Write, using POST method
-* Way 3 (Best Way) :
+* **Way 3 (Best Way) :**
 
   * Push Data
   * Set Data
@@ -219,32 +219,32 @@
 * ```
   npm install firebase
   ```
-* Add Data :
+* **Add Data :**
 
   * setDoc : Sets or overwrites a document with a specified ID.
   * addDoc : Adds a document to a collection with an automatically generated ID.
-* Update Data :
+* **Update Data :**
 
   * updateDoc : Modifies the fields of an existing document.
-* Delete Data :
+* **Delete Data :**
 
   * deleteDoc : Removes a specific document, delete a specific document in Firestore.
-* Read Data :
+* **Read Data :**
 
   * get : Retrieves the data from a document or a collection.
     * getDoc : Retrieves the data from a specific document / Fetch Data From Doc ID
     * getDocs : Retrieves the data from all documents in a collection / Fetch Data From Collection
   * onSnapshot : Listens to real-time changes in a document or collection.
-* The database structure :
+* **The database structure :**
 
   * Project: MyWebsite
-    * Default Database
-      * Collection: Users
+    * **Default Database**
+      * **Collection: Users**
         * Document: User1
           * Fields: Name, Email
         * Document: User2
           * Fields: Name, Email
-      * Collection: Products
+      * **Collection: Products**
         * Document: Product1
           * Fields: Name, Price
         * Document: Product2
@@ -296,23 +296,23 @@
 * ```
   npm i mongoose
   ```
-* Way 1 :
+* **Way 1 :**
 
   * Test Using Thunder Client or Postman
-* Way 2 (Easy to Learn) :
+* **Way 2 (Easy to Learn) :**
 
   * Test Using Create Functions and 'fetch'
-* Way 3 :
+* **Way 3 :**
 
   * ```
     npm install axios
     ```
   * Test Using axios and Create functions
   * [Doc Link](https://www.npmjs.com/package/axios)
-* Structure of a MongoDB database :
+* **Structure of a MongoDB database :**
 
-  * Database (e.g., "UserDatabase")
-    * Collection (e.g., "Users")
+  * **Database (e.g., "UserDatabase")**
+    * **Collection (e.g., "Users")**
       * Document (e.g., User1)
         * Field ("_id": 1)
         * Field ("username": "johndoe")
@@ -376,7 +376,6 @@
 
 * [Next Auth Doc](https://www.npmjs.com/package/next-auth)
 * [Console Cloud Google](https://console.cloud.google.com/apis/credentials?project=glass-effect-403314)
-
 * ```
   npm i next-auth
   ```
@@ -384,21 +383,17 @@
 ### 23. [Next Formspree :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Formspree)
 
 * [Formspree Web](https://formspree.io/)
-
 * ```
   npm i @formspree/react
   ```
 
-  
 ### 24. [Next Browser Image Compression :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Browser%20Image%20Compression)
 
 * [Browser Image Compression Web](https://www.npmjs.com/package/browser-image-compression)
-
 * ```
   npm i browser-image-compression
   ```
 
-  
 ### 25. [Next Save Image Locally Firebase Storage :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Save%20Image%20Locally%20Firebase%20Storage)
 
 * ```
@@ -416,13 +411,11 @@
 * ```
   npm install @pdf-lib/core
   ```
-  
 * Image link to PDF
 * Images to PDF Merger
 * PDFs to PDF Merger
 * PDF Viewer
 * Upload Image to PDF
-
 
 ### 27. [Next Page Top Loader :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Page%20Top%20Loader)
 
@@ -436,11 +429,9 @@
   npm install react-dropzone
   ```
 
-
 ### 29. [Next Socket Io :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Socket%20Io)
 
 * NextJs .env Prefix : ``NEXT_PUBLIC_``
-
 * ```
   npm i nodemon
   ```
@@ -456,12 +447,46 @@
 * ```
   node server.js
   ```
+
 ### 30. [Next WebRTC :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20WebRTC)
 
 * WebRTC Handshake
 
+### 31. [Next NodeMailer :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20NodeMailer)
 
+* **Way 1:**
 
+  * Using Nextjs API
 
+  ```
+  npm i nodemailer
+  ```
+* **Way 2:**
 
+  * Using Nextjs and Server
 
+  ```
+  npm i cors 
+  ```
+  ```
+  npm i express 
+  ```
+  ```
+  npm i nodemailer 
+  ```
+  ```
+  npm i nodemon 
+  ```
+* **Way 3:**
+
+  * Using Server
+
+  ```
+  npm i express 
+  ```
+  ```
+  npm i nodemailer 
+  ```
+  ```
+  npm i nodemon 
+  ```
