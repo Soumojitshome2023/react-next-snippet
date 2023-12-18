@@ -290,6 +290,7 @@
 ### 15. [Next API :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20API)
 
 * [NextRequest Doc](https://nextjs.org/docs/app/api-reference/functions/next-request)
+* GET, POST
 
 ### 16. [Next Mongo API](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Mongo%20API) :
 
