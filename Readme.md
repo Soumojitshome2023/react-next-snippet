@@ -491,3 +491,11 @@
   ```
   npm i nodemon 
   ```
+
+
+
+### 32. [Next MarkDown Load :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20MarkDown%20Load)
+
+  ```
+  npm install react-markdown
+  ```
