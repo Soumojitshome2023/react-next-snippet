@@ -499,3 +499,7 @@
   ```
   npm install react-markdown
   ```
+
+### 33. [Next Use Server :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Use%20Server)
+
+* File Read Write on Server
