@@ -502,4 +502,13 @@
 
 ### 33. [Next Use Server :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Use%20Server)
 
-* File Read Write on Server
+* Text File Read Write on Server
+
+### 34. [Next Use Server CRU :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Use%20Server%20CRU)
+
+* Text File Read Write Update on Server
+
+
+### 35. [Next File Upload to Server :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20File%20Upload%20to%20Server)
+
+* Doc File Upload on Server
