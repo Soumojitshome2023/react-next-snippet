@@ -512,3 +512,7 @@
 ### 35. [Next File Upload to Server :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20File%20Upload%20to%20Server)
 
 * Doc File Upload on Server
+
+### 36. [Next Upload File to Cloudinary :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Upload%20File%20to%20Cloudinary)
+
+* Upload File to Cloudinary
