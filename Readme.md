@@ -516,3 +516,59 @@
 ### 36. [Next Upload File to Cloudinary :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Upload%20File%20to%20Cloudinary)
 
 * Upload File to Cloudinary
+
+### 37. [Next Rich Text Editor :](https://github.com/Soumojitshome2023/React_Next_Snippet/tree/main/Next%20Rich%20Text%20Editor)
+
+* Next Rich Text Editor
+
+* Way 1 :
+  * Simple Text Editor
+
+    ```
+    react-quill
+    ```
+
+* Way 2 (Main):
+  * Rich Text Editor With Image Add Option
+  
+    ```
+    react-quill
+    ```
+
+* Way 3 : 
+  * Rich Text Editor With Image Add Option and Resize
+    ```
+    quill-blot-formatter
+    ```
+    ```
+    react-quilljs
+    ```
+
+* Way 4
+  * Rich Text Editor With Image Add Option and Resize
+    ```
+    quill-image-resize-module-react
+    ```
+
+* Way 5
+  * Rich Text Editor With Image Add Option and Resize
+    ```
+    quill-image-resize-module-react
+    ```
+
+```
+react-draft-wysiwyg
+```
+```
+jodit-react
+```
+```
+draftjs-to-html
+```
+```
+draft-js
+```
+```
+@testing-library/user-event
+```
+
